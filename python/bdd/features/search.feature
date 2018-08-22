@@ -8,4 +8,4 @@ Scenario Outline: Assert search works
 Examples:
 | url                     | keyword               | expected              |
 | http://www.google.com   | Mazedur Rahman        | Mazedur Rahman        |
-| http://www.google.com   | black panther        | Qblack panther        |
+| http://www.google.com   | black panther         | black panther        |
